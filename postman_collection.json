@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Data.go.th Zoo Visitors 2569",
+    "description": "GET actual zoo visitor statistics from the FastAPI project.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET Zoo Visitors 2569",
+      "request": {
+        "method": "GET",
+        "header": [{ "key": "Accept", "value": "application/json" }],
+        "url": { "raw": "{{baseUrl}}/api/zoo-visitors", "host": ["{{baseUrl}}"], "path": ["api", "zoo-visitors"] }
+      }
+    }
+  ],
+  "variable": [{ "key": "baseUrl", "value": "http://127.0.0.1:8000" }]
+}
